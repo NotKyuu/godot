@@ -48,7 +48,7 @@ jobs:
             artifact: true
           
           - name: Debug Template w/ Mono (target=debug, tools=no)
-            cache-name: linux-template-mono
+            cache-name: linux-template-mono-debug
             target: debug
             tools: false
             sconsflags: module_mono_enabled=yes mono_static=yes mono_glue=no debug_symbols=no

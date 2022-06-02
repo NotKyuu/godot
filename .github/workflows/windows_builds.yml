@@ -34,7 +34,7 @@ jobs:
             tools: false
 
           - name: Debug Template (target=debug, tools=no)
-            cache-name: windows-template
+            cache-name: windows-template-debug
             target: debug
             tools: false
 
