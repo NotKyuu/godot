@@ -33,9 +33,9 @@ jobs:
             target: release
             tools: false
 
-          - name: Debug Template (target=debug, tools=no)
-            cache-name: windows-template-debug
-            target: debug
+          - name: Debug Template (target=release_debug, tools=no)
+            cache-name: windows-template-release-debug
+            target: release_debug
             tools: false
 
     steps:
