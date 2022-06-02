@@ -33,6 +33,11 @@ jobs:
             target: release
             tools: false
 
+          - name: Debug Template (target=debug, tools=no)
+            cache-name: windows-template
+            target: debug
+            tools: false
+
     steps:
       - uses: actions/checkout@v2
 
